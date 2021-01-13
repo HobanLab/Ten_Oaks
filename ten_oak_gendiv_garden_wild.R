@@ -206,3 +206,30 @@ barplot(tenoak_allrich_df, beside = T, col = c("darkseagreen1","forestgreen"), y
 legend('top', col = c("darkseagreen1","forestgreen"), legend = c("Garden", "Wild"), pch = 15)
 abline(h = 0)
 dev.off()
+
+###hexp 
+##run poppr on everything 
+tenoaks_poppr <- list()
+
+##
+for(p in 1:length(tenoak_genind_nocl_list)){
+  
+  tenoaks_poppr[[p]] <- poppr(tenoak_genind_nocl_list[[p]])
+  
+}
+
+##create data frame
+tenoaks_hexp_df <- cbind(tenoaks_poppr[[1]][1:2,10],tenoaks_poppr[[2]][1:2,10],
+                         tenoaks_poppr[[3]][1:2,10], tenoaks_poppr[[4]][1:2,10])
+
+rownames(tenoaks_hexp_df) <- c("Garden","Wild")
+colnames(tenoaks_hexp_df) <- species_names
+
+##hexp barplot
+pdf("G:\\Shared drives\\Emily_Schumacher\\ten_oaks_gen\\tenoak_hexp_barplot.pdf")
+barplot(tenoaks_hexp_df, beside = T, col = c("darkseagreen1","forestgreen"), ylim = c(0,1),  
+        ylab = "Expected Heterozygosity", xlab = "Species", names.arg = c("Quercus acerifolia", "Quercus ajoensis", 
+                                                                   "Quercus hinckleyi", "Quercus pacifica"))
+legend('topleft', col = c("darkseagreen1","forestgreen"), legend = c("Garden", "Wild"), pch = 15)
+abline(h = 0)
+dev.off()
