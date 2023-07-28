@@ -16,10 +16,10 @@ library(poppr)
 #   Load Data Files     #
 #########################
 #set working directory to load in data files 
-setwd("../../Data_Files")
+setwd("../../Data_Files/Adegenet_Files")
 
 #now read in genepop file as a genind for adegenet 
-sp_genind <- list.files(path = "Adegenet_Files", pattern = "allpop.gen")
+sp_genind <- list.files(pattern = "allpop.gen")
 
 #load relatedness CSV with ind and pop info
 sp_df <- list.files(path = "CSV_files", pattern = "allpop_df.csv")
