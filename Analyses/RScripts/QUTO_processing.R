@@ -50,3 +50,9 @@ levels(QUTO_genind_nocl@pop) <- c("Garden","SR_G1","SR_G2",
 #analyses
 genind2genalex(QUTO_genind_nocl, "CSV_Files/QUTO_nomd_nocl.csv")
 
+##load in by island genotype file 
+arp2gen("Data_Files/Adegent_Files/QUTO_byisland_genind.arp")
+
+
+
+

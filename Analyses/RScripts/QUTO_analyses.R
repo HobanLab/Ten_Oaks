@@ -145,18 +145,27 @@ QUTO_all_rep <- colSums(seppop(QUTO_garden_wild_onepop_genind)[[1]]@tab,na.rm=T)
 #first calculate the frequency categories of alleles in the wild individuals   	
 QUTO_all_cat <- get.allele.cat(QUTO_wild_genpop, 1, 1, n_ind_W, n_drop = 0, glob_only = TRUE)	
 
+#remove regional alleles from QUTO all cat
+QUTO_all_cat <- QUTO_all_cat[1:5]
+
 #alleles existing 
 QUTO_all_exist_df <- matrix(nrow = length(dup_reps), ncol = length(all_cat_list))
-QUTO_wild_cap_df <- matrix(nrow = length(dup_reps), ncol = length(all_cat_list))
-QUTO_all_rep <- matrix(nrow = length(dup_reps), ncol = length(all_cat_list))
-#calculating alleles that exist by allelic category
-for(a in 1:length(list_allele_cat)) sp_all_exist_df[,a] <- round(sum(sp_alleles_cap[sp_allele_cat[[a]]] > 0))
+QUTO_garden_rep_df <- matrix(nrow = length(dup_reps), ncol = length(all_cat_list))
+QUTO_garden_rep_per_df <- matrix(nrow = length(dup_reps), ncol = length(all_cat_list))
 
-#now determine how many wild alleles were captured per category 
-for(a in 1:length(list_allele_cat)) sp_wild_cap_df[,a] <- round(sum(sp_alleles_cap[sp_allele_cat[[a]]] > 0)/length(sp_allele_cat[[a]]),4)
+#loop to calculate allelic representation 
+for(dup in dup_reps){
+  for(cat in 1:length(QUTO_all_cat)){
+    
+    #first save all of the existing wild alleles
+    QUTO_all_exist_df[dup+1,cat] <- round(sum(QUTO_all_rep[QUTO_all_cat[[cat]]] > dup))
+    
+    #now count the alleles represented in each category ex situ
+    QUTO_garden_rep_df[dup+1,cat] <- round(sum(QUTO_all_rep[QUTO_all_cat[[cat]]] > dup)/length(QUTO_all_cat[[cat]]),4)
+    
+    #save in a presentation data frame 
+    QUTO_garden_rep_per_df[dup+1,cat] <- paste0(signif((QUTO_garden_rep_df[dup+1,cat]*100),3), "% (", signif(QUTO_all_exist_df[dup+1,cat],3), ")")
+    
+  }
+}
 
-#code to store as one data frame 
-for(a in 1:length(list_allele_cat))sp_allele_cap[,a] <- paste0(signif((sp_wild_cap_df[,a]*100),3), "% (", signif(sp_all_exist_df[,a],3), ")")
-
-colnames(sp_allele_cap) <- list_allele_cat
-write.csv(sp_allpop_gendiv_sumstat_df, "C:/Users/LAguiniga/Documents/QUTO/Analyses/Results/Sum_Stats/QUTO_sp_allele_cap_df.csv")
