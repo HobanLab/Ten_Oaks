@@ -1,0 +1,412 @@
+
+
+----------------------------------------------------
+STRUCTURE by Pritchard, Stephens and Donnelly (2000)
+     and Falush, Stephens and Pritchard (2003)
+       Code by Pritchard, Falush and Hubisz
+             Version 2.3.4 (Jul 2012)
+----------------------------------------------------
+
+
+
+Command line arguments:   bin\structure -m C:\Users\eschumacher\Documents\GitHub\Ten_Oaks\Analyses\Results\Clustering\STRUCTURE\QUTO_byisland_wild\50-50\mainparams -e C:\Users\eschumacher\Documents\GitHub\Ten_Oaks\Analyses\Results\Clustering\STRUCTURE\QUTO_byisland_wild\50-50\extraparams 
+Input File:    C:\Users\eschumacher\Documents\GitHub\Ten_Oaks\Analyses\Results\Clustering\STRUCTURE\QUTO_byisland_wild\project_data
+
+Run parameters:
+   225 individuals
+   9 loci
+   1 populations assumed
+   50000 Burn-in period
+   50000 Reps
+
+
+--------------------------------------------
+Proportion of membership of each pre-defined
+ population in each of the 1 clusters
+
+Given    Inferred Clusters       Number of
+ Pop       1                    Individuals
+
+  1:     1.000                    139
+  2:     1.000                     44
+  3:     1.000                     14
+--------------------------------------------
+
+Allele-freq. divergence among pops (Net nucleotide distance),
+computed using point estimates of P.
+
+      1      
+ 1      -    
+
+Average distances (expected heterozygosity) between individuals in same cluster:
+cluster  1  : 0.5636 
+
+--------------------------------------------
+Estimated Ln Prob of Data   = -4431.5
+Mean value of ln likelihood = -4412.3
+Variance of ln likelihood   = 38.3
+
+Mean value of Fst_1         = 0.0006
+
+
+Inferred ancestry of individuals:
+        Label (%Miss) Pop:  Inferred clusters
+  1 QTo-W-0005   (33)    1 :  1.000 
+  2 QTo-W-0007   (11)    1 :  1.000 
+  3 QTo-W-0009    (0)    1 :  1.000 
+  4 QTo-W-0010    (0)    1 :  1.000 
+  5 QTo-W-0011    (0)    1 :  1.000 
+  6 QTo-W-0012   (22)    1 :  1.000 
+  7 QTo-W-0013   (44)    1 :  1.000 
+  8 QTo-W-0014   (66)    1 :  1.000 
+  9 QTo-W-0016   (66)    1 :  1.000 
+ 10 QTo-W-0019   (66)    1 :  1.000 
+ 11 QTo-W-0020   (22)    1 :  1.000 
+ 12 QTo-W-0021   (22)    1 :  1.000 
+ 13 QTo-W-0022   (55)    1 :  1.000 
+ 14 QTo-W-0023   (22)    1 :  1.000 
+ 15 QTo-W-0024   (11)    1 :  1.000 
+ 16 QTo-W-0025   (33)    1 :  1.000 
+ 17 QTo-W-0028   (66)    1 :  1.000 
+ 18 QTo-W-0031   (66)    1 :  1.000 
+ 19 QTo-W-0033    (0)    1 :  1.000 
+ 20 QTo-W-0035   (11)    1 :  1.000 
+ 21 QTo-W-0036    (0)    1 :  1.000 
+ 22 QTo-W-0037   (11)    1 :  1.000 
+ 23 QTo-W-0039   (11)    1 :  1.000 
+ 24 QTo-W-0040   (11)    1 :  1.000 
+ 25 QTo-W-0041    (0)    1 :  1.000 
+ 26 QTo-W-0044    (0)    1 :  1.000 
+ 27 QTo-W-0047    (0)    1 :  1.000 
+ 28 QTo-W-0048   (11)    1 :  1.000 
+ 29 QTo-W-0049    (0)    1 :  1.000 
+ 30 QTo-W-0050   (22)    1 :  1.000 
+ 31 QTo-W-0052    (0)    1 :  1.000 
+ 32 QTo-W-0054    (0)    1 :  1.000 
+ 33 QTo-W-0055    (0)    1 :  1.000 
+ 34 QTo-W-0056    (0)    1 :  1.000 
+ 35 QTo-W-0057    (0)    1 :  1.000 
+ 36 QTo-W-0058    (0)    1 :  1.000 
+ 37 QTo-W-0059    (0)    1 :  1.000 
+ 38 QTo-W-0060    (0)    1 :  1.000 
+ 39 QTo-W-0061    (0)    1 :  1.000 
+ 40 QTo-W-0062   (11)    1 :  1.000 
+ 41 QTo-W-0063   (11)    1 :  1.000 
+ 42 QTo-W-0064   (11)    1 :  1.000 
+ 43 QTo-W-0065   (11)    1 :  1.000 
+ 44 QTo-W-0067    (0)    1 :  1.000 
+ 45 QTo-W-0071    (0)    1 :  1.000 
+ 46 QTo-W-0072    (0)    1 :  1.000 
+ 47 QTo-W-0073   (33)    1 :  1.000 
+ 48 QTo-W-0075    (0)    1 :  1.000 
+ 49 QTo-W-0076   (11)    1 :  1.000 
+ 50 QTo-W-0077   (11)    1 :  1.000 
+ 51 QTo-W-0078   (33)    1 :  1.000 
+ 52 QTo-W-0079    (0)    1 :  1.000 
+ 53 QTo-W-0080   (11)    1 :  1.000 
+ 54 QTo-W-0081   (11)    1 :  1.000 
+ 55 QTo-W-0082    (0)    1 :  1.000 
+ 56 QTo-W-0087    (0)    1 :  1.000 
+ 57 QTo-W-0088   (11)    1 :  1.000 
+ 58 QTo-W-0089   (11)    1 :  1.000 
+ 59 QTo-W-0090    (0)    1 :  1.000 
+ 60 QTo-W-0091    (0)    1 :  1.000 
+ 61 QTo-W-0093   (11)    1 :  1.000 
+ 62 QTo-W-0097   (44)    1 :  1.000 
+ 63 QTo-W-0098    (0)    1 :  1.000 
+ 64 QTo-W-0099    (0)    1 :  1.000 
+ 65 QTo-W-0100    (0)    1 :  1.000 
+ 66 QTo-W-0101   (11)    1 :  1.000 
+ 67 QTo-W-0102    (0)    1 :  1.000 
+ 68 QTo-W-0103    (0)    1 :  1.000 
+ 69 QTo-W-0104    (0)    1 :  1.000 
+ 70 QTo-W-0105    (0)    1 :  1.000 
+ 71 QTo-W-0106    (0)    1 :  1.000 
+ 72 QTo-W-0107   (44)    1 :  1.000 
+ 73 QTo-W-0108    (0)    1 :  1.000 
+ 74 QTo-W-0110   (44)    1 :  1.000 
+ 75 QTo-W-0111   (11)    1 :  1.000 
+ 76 QTo-W-0112    (0)    1 :  1.000 
+ 77 QTo-W-0113    (0)    1 :  1.000 
+ 78 QTo-W-0114    (0)    1 :  1.000 
+ 79 QTo-W-0115    (0)    1 :  1.000 
+ 80 QTo-W-0116   (11)    1 :  1.000 
+ 81 QTo-W-0117   (22)    1 :  1.000 
+ 82 QTo-W-0118    (0)    1 :  1.000 
+ 83 QTo-W-0119   (11)    1 :  1.000 
+ 84 QTo-W-0121   (11)    1 :  1.000 
+ 85 QTo-W-0122   (11)    1 :  1.000 
+ 86 QTo-W-0124   (11)    1 :  1.000 
+ 87 QTo-W-0125   (55)    1 :  1.000 
+ 88 QTo-W-0126   (11)    1 :  1.000 
+ 89 QTo-W-0127   (66)    1 :  1.000 
+ 90 QTo-W-0128    (0)    1 :  1.000 
+ 91 QTo-W-0129    (0)    1 :  1.000 
+ 92 QTo-W-0131   (11)    1 :  1.000 
+ 93 QTo-W-0132   (66)    1 :  1.000 
+ 94 QTo-W-0133   (11)    1 :  1.000 
+ 95 QTo-W-0134   (77)    1 :  1.000 
+ 96 QTo-W-0137    (0)    1 :  1.000 
+ 97 QTo-W-0138    (0)    1 :  1.000 
+ 98 QTo-W-0139    (0)    1 :  1.000 
+ 99 QTo-W-0140   (22)    1 :  1.000 
+100 QTo-W-0141   (22)    1 :  1.000 
+101 QTo-W-0142    (0)    1 :  1.000 
+102 QTo-W-0143   (33)    1 :  1.000 
+103 QTo-W-0144    (0)    1 :  1.000 
+104 QTo-W-0145    (0)    1 :  1.000 
+105 QTo-W-0147   (44)    1 :  1.000 
+106 QTo-W-0148    (0)    1 :  1.000 
+107 QTo-W-0149   (22)    1 :  1.000 
+108 QTo-W-0150   (66)    1 :  1.000 
+109 QTo-W-0151   (11)    1 :  1.000 
+110 QTo-W-0152   (11)    1 :  1.000 
+111 QTo-W-0153   (22)    1 :  1.000 
+112 QTo-W-0154    (0)    1 :  1.000 
+113 QTo-W-0155    (0)    1 :  1.000 
+114 QTo-W-0156    (0)    1 :  1.000 
+115 QTo-W-0159   (11)    1 :  1.000 
+116 QTo-W-0161   (11)    1 :  1.000 
+117 QTo-W-0162    (0)    1 :  1.000 
+118 QTo-W-0163   (11)    1 :  1.000 
+119 QTo-W-0167   (11)    1 :  1.000 
+120 QTo-W-0170    (0)    1 :  1.000 
+121 QTo-W-0171   (22)    1 :  1.000 
+122 QTo-W-0172   (22)    1 :  1.000 
+123 QTo-W-0173   (11)    1 :  1.000 
+124 QTo-W-0174    (0)    1 :  1.000 
+125 QTo-W-0175    (0)    1 :  1.000 
+126 QTo-W-0176    (0)    1 :  1.000 
+127 QTo-W-0180   (66)    1 :  1.000 
+128 QTo-W-0182   (22)    1 :  1.000 
+129 QTo-W-0184    (0)    1 :  1.000 
+130 QTo-W-0188    (0)    1 :  1.000 
+131 QTo-W-0189    (0)    1 :  1.000 
+132 QTo-W-0190    (0)    1 :  1.000 
+133 QTo-W-0191    (0)    1 :  1.000 
+134 QTo-W-0192   (11)    1 :  1.000 
+135 QTo-W-0193    (0)    1 :  1.000 
+136 QTo-W-0194    (0)    1 :  1.000 
+137 QTo-W-0195   (11)    1 :  1.000 
+138 QTo-W-0196   (11)    1 :  1.000 
+139 QTo-W-0197    (0)    1 :  1.000 
+140 QTo-W-0200   (11)    2 :  1.000 
+141 QTo-W-0201   (22)    2 :  1.000 
+142 QTo-W-0202   (22)    2 :  1.000 
+143 QTo-W-0205    (0)    2 :  1.000 
+144 QTo-W-0206    (0)    2 :  1.000 
+145 QTo-W-0208    (0)    2 :  1.000 
+146 QTo-W-0210    (0)    2 :  1.000 
+147 QTo-W-0211    (0)    2 :  1.000 
+148 QTo-W-0212   (11)    2 :  1.000 
+149 QTo-W-0213    (0)    2 :  1.000 
+150 QTo-W-0214    (0)    2 :  1.000 
+151 QTo-W-0216   (11)    2 :  1.000 
+152 QTo-W-0217   (44)    2 :  1.000 
+153 QTo-W-0219   (44)    2 :  1.000 
+154 QTo-W-0220    (0)    2 :  1.000 
+155 QTo-W-0221   (44)    2 :  1.000 
+156 QTo-W-0224   (11)    2 :  1.000 
+157 QTo-W-0225   (11)    2 :  1.000 
+158 QTo-W-0227   (11)    2 :  1.000 
+159 QTo-W-0229    (0)    2 :  1.000 
+160 QTo-W-0231    (0)    2 :  1.000 
+161 QTo-W-0232   (44)    2 :  1.000 
+162 QTo-W-0233   (11)    2 :  1.000 
+163 QTo-W-0237   (33)    2 :  1.000 
+164 QTo-W-0238   (22)    2 :  1.000 
+165 QTo-W-0240    (0)    2 :  1.000 
+166 QTo-W-0242    (0)    2 :  1.000 
+167 QTo-W-0244    (0)    2 :  1.000 
+168 QTo-W-0245   (11)    2 :  1.000 
+169 QTo-W-0251    (0)    2 :  1.000 
+170 QTo-W-0252   (44)    2 :  1.000 
+171 QTo-W-0253    (0)    2 :  1.000 
+172 QTo-W-0255   (44)    2 :  1.000 
+173 QTo-W-0256   (11)    2 :  1.000 
+174 QTo-W-0258    (0)    2 :  1.000 
+175 QTo-W-0259    (0)    2 :  1.000 
+176 QTo-W-0260   (22)    2 :  1.000 
+177 QTo-W-0261    (0)    2 :  1.000 
+178 QTo-W-0264    (0)    2 :  1.000 
+179 QTo-W-0265    (0)    2 :  1.000 
+180 QTo-W-0266   (44)    2 :  1.000 
+181 QTo-W-0270    (0)    2 :  1.000 
+182 QTo-W-0271   (33)    2 :  1.000 
+183 QTo-W-0272    (0)    2 :  1.000 
+184 QTo-W-0274   (11)    3 :  1.000 
+185 QTo-W-0275    (0)    3 :  1.000 
+186 QTo-W-0278    (0)    3 :  1.000 
+187 QTo-W-0279   (44)    3 :  1.000 
+188 QTo-W-0283   (11)    3 :  1.000 
+189 QTo-W-0284    (0)    3 :  1.000 
+190 QTo-W-0286    (0)    3 :  1.000 
+191 QTo-W-0287   (22)    3 :  1.000 
+192 QTo-W-0289   (22)    3 :  1.000 
+193 QTo-W-0290   (22)    3 :  1.000 
+194 QTo-W-0291   (22)    3 :  1.000 
+195 QTo-W-0293    (0)    3 :  1.000 
+196 QTo-W-0294    (0)    3 :  1.000 
+197 QTo-W-0295   (11)    3 :  1.000 
+198 QTo-W-0296   (11)    4 :  1.000 
+199 QTo-W-0298    (0)    4 :  1.000 
+200 QTo-W-0299    (0)    4 :  1.000 
+201 QTo-W-0300   (11)    4 :  1.000 
+202 QTo-W-0302    (0)    4 :  1.000 
+203 QTo-W-0303    (0)    4 :  1.000 
+204 QTo-W-0304    (0)    4 :  1.000 
+205 QTo-W-0305    (0)    4 :  1.000 
+206 QTo-W-0306    (0)    4 :  1.000 
+207 QTo-W-0307    (0)    4 :  1.000 
+208 QTo-W-0308   (11)    4 :  1.000 
+209 QTo-W-0309   (11)    4 :  1.000 
+210 QTo-W-0311    (0)    4 :  1.000 
+211 QTo-W-0312    (0)    4 :  1.000 
+212 QTo-W-0315   (11)    4 :  1.000 
+213 QTo-W-0316   (11)    4 :  1.000 
+214 QTo-W-0318    (0)    4 :  1.000 
+215 QTo-W-0319    (0)    4 :  1.000 
+216 QTo-W-0320    (0)    4 :  1.000 
+217 QTo-W-0322   (11)    4 :  1.000 
+218 QTo-W-0323    (0)    4 :  1.000 
+219 QTo-W-0324    (0)    4 :  1.000 
+220 QTo-W-0326   (22)    4 :  1.000 
+221 QTo-W-0327   (11)    4 :  1.000 
+222 QTo-W-0328    (0)    4 :  1.000 
+223 QTo-W-0329    (0)    4 :  1.000 
+224 QTo-W-0330   (11)    4 :  1.000 
+225 QTo-W-0332   (100)    4 :  -1.#IO 
+
+
+Estimated Allele Frequencies in each cluster
+First column gives estimated ancestral frequencies
+
+
+Locus 1 : 
+4 alleles
+7.1% missing data
+ 149   (0.882) 0.883 
+ 147   (0.046) 0.046 
+ 155   (0.036) 0.036 
+ 161   (0.036) 0.035 
+
+Locus 2 : 
+6 alleles
+16.4% missing data
+ 173   (0.236) 0.236 
+ 179   (0.389) 0.390 
+ 176   (0.149) 0.149 
+ 164   (0.006) 0.005 
+ 182   (0.203) 0.204 
+ 170   (0.016) 0.016 
+
+Locus 3 : 
+17 alleles
+5.8% missing data
+ 220   (0.135) 0.136 
+ 222   (0.152) 0.152 
+ 218   (0.199) 0.200 
+ 226   (0.206) 0.207 
+ 256   (0.021) 0.020 
+ 258   (0.041) 0.041 
+ 228   (0.069) 0.069 
+ 224   (0.039) 0.039 
+ 264   (0.012) 0.011 
+ 230   (0.040) 0.040 
+ 260   (0.009) 0.009 
+ 262   (0.005) 0.005 
+ 234   (0.012) 0.012 
+ 232   (0.016) 0.016 
+ 250   (0.021) 0.021 
+ 216   (0.007) 0.007 
+ 266   (0.016) 0.016 
+
+Locus 4 : 
+3 alleles
+7.1% missing data
+ 137   (0.982) 0.983 
+ 139   (0.012) 0.012 
+ 135   (0.005) 0.005 
+
+Locus 5 : 
+17 alleles
+15.6% missing data
+ 187   (0.402) 0.406 
+ 243   (0.030) 0.030 
+ 203   (0.139) 0.140 
+ 201   (0.082) 0.083 
+ 197   (0.066) 0.066 
+ 195   (0.056) 0.056 
+ 247   (0.008) 0.008 
+ 235   (0.008) 0.008 
+ 249   (0.013) 0.013 
+ 199   (0.066) 0.066 
+ 245   (0.018) 0.018 
+ 217   (0.021) 0.020 
+ 219   (0.036) 0.035 
+ 229   (0.005) 0.005 
+ 215   (0.031) 0.030 
+ 205   (0.005) 0.005 
+ 227   (0.013) 0.013 
+
+Locus 6 : 
+25 alleles
+37.3% missing data
+ 214   (0.036) 0.036 
+ 222   (0.062) 0.062 
+ 206   (0.078) 0.079 
+ 218   (0.093) 0.094 
+ 204   (0.023) 0.023 
+ 208   (0.024) 0.023 
+ 216   (0.077) 0.077 
+ 238   (0.113) 0.114 
+ 234   (0.026) 0.026 
+ 242   (0.023) 0.022 
+ 210   (0.213) 0.216 
+ 246   (0.010) 0.010 
+ 258   (0.013) 0.013 
+ 240   (0.011) 0.010 
+ 256   (0.013) 0.013 
+ 254   (0.010) 0.010 
+ 236   (0.059) 0.059 
+ 248   (0.023) 0.023 
+ 252   (0.013) 0.013 
+ 224   (0.017) 0.017 
+ 230   (0.016) 0.016 
+ 228   (0.007) 0.006 
+ 266   (0.007) 0.006 
+ 212   (0.017) 0.016 
+ 232   (0.017) 0.017 
+
+Locus 7 : 
+8 alleles
+8.9% missing data
+ 108   (0.748) 0.751 
+ 116   (0.015) 0.014 
+ 110   (0.124) 0.124 
+ 114   (0.036) 0.036 
+ 112   (0.053) 0.053 
+ 104   (0.008) 0.007 
+ 118   (0.008) 0.007 
+ 106   (0.008) 0.007 
+
+Locus 8 : 
+5 alleles
+8.4% missing data
+ 162   (0.644) 0.645 
+ 160   (0.189) 0.189 
+ 164   (0.087) 0.086 
+ 166   (0.005) 0.005 
+ 158   (0.075) 0.074 
+
+Locus 9 : 
+4 alleles
+7.1% missing data
+ 229   (0.521) 0.521 
+ 226   (0.367) 0.368 
+ 223   (0.105) 0.104 
+ 232   (0.007) 0.007 
+
+Values of parameters used in structure:
+DATAFILE=C:\Users\eschumacher\Documents\GitHub\Ten_Oaks\Analyses\Results\Clustering\STRUCTURE\QUTO_byisland_wild\project_data,	OUTFILE=C:\Users\eschumacher\Documents\GitHub\Ten_Oaks\Analyses\Results\Clustering\STRUCTURE\QUTO_byisland_wild\50-50\Results\50-50_run_4,	NUMINDS=225,	NUMLOCI=9,	MISSING=-9,	LABEL=1,	POPDATA=1,	POPFLAG=0,	PHENOTYPE=0,	EXTRACOLS=0,	MAXPOPS=1,	BURNIN=50000,	NUMREPS=50000,	USEPOPINFO=0,	INFERALPHA=1,	INFERLAMBDA=0,	POPSPECIFICLAMBDA=0,	POPALPHAS=0,	COMPUTEPROB=1,	NOADMIX=0,	ADMBURNIN=2500,	UPDATEFREQ=1,	PRINTLIKES=0,	INTERMEDSAVE=0,	PRINTKLD=0,	PRINTNET=0,	PRINTLAMBDA=0,	ANCESTDIST=0,	NUMBOXES=1000,	ANCESTPINT=0.90000,	GENSBACK=2,	MIGRPRIOR=0.05000,	PRINTQHAT=0,	PRINTQSUM=0,	ALPHA=1.0000,	FREQSCORR=1,	FPRIORMEAN=0.0100,	FPRIORSD=0.0500,	ONEFST=0,	LAMBDA=1.0000,	UNIFPRIORALPHA=1,	ALPHAMAX=10.0000,	ALPHAPRIORA=1.0000,	ALPHAPRIORB=2.0000,	ALPHAPROPSD=0.0250,	STARTATPOPINFO=0,	RANDOMIZE=1,	LINKAGE=0,	METROFREQ=10,	REPORTHITRATE=0,	MARKOVPHASE=-1,	PHASED=0,	PLOIDY=2,	PHASEINFO=0	LOCPRIOR=0, 	LOCPRIORINIT=1.000000, 	LOCDATA=0, 	LOCISPOP=0, 	LOCPRIORSTEP=0.100000, 	MAXLOCPRIOR=20.000000, 	SEED=1691165355,	
+[STRAT parameters]:    NUMSIMSTATS=1000,	PHENOTYPECOL=-9,	POOLFREQ=10,	LOCUSxONLY=0,	EMERROR=0.00100,	MISSINGPHENO=-9,	

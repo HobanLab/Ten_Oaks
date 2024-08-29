@@ -17,14 +17,14 @@ library(tidyverse)
 setwd("C:/Users/eschumacher/Documents/GitHub/Ten_Oaks")
 
 #load in data file
-QUTO_genind <- read.genepop("Data_Files/Adegent_Files/QUTO_byisland.gen",
+QUTO_genind <- read.genepop("Data_Files/Adegent_Files/QUTO_byisland_genind.gen",
                             ncode = 3)
 
 #allele frequency category lists 
 all_cat_list <- c("global","glob_v_com","glob_com","glob_lowfr","glob_rare")
 
 #
-source("Analyses/Fa_sample_funcs.R")
+source("Analyses/RScripts/Functions/Fa_sample_funcs.R")
 
 #
 dup_reps <- c(0:9)
@@ -168,4 +168,6 @@ for(dup in dup_reps){
     
   }
 }
+
+write.csv(QUTO_garden_rep_per_df, "Analyses/Results/Allelic_Representation/QUTO_garden_rep_per_df.csv")
 
